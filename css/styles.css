@@ -1,0 +1,162 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+.container {
+    border-top: 1px solid;
+}
+
+main {
+    max-width: 600px;
+    margin: 10px auto;
+    padding: 10px 10px;
+    /* background: #f4f7f8; */
+    /* border-radius: 8px; */
+}
+
+.header {
+    font-size: .75em;
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 15px 0 15px 0;
+}
+
+.news-header {
+    text-align: center;
+    border-bottom: 3px solid;
+    margin-bottom: 1px;
+}
+
+.comment {
+    padding-top: 20px;
+    color: grey;
+    font-size: .85em;
+}
+
+.news-header h1 {
+    font-size: 1.15em;
+}
+
+.news-header p {
+    padding: 10px 0 30px 0;
+    color: grey;
+    font-size: .80em;
+}
+
+.newsletter p {
+    padding: 10px 0 5px 0;
+    color: grey;
+    font-size: .80em;
+}
+
+.newsletter {
+    border-top: 1px solid;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="address"],
+input[type="city"],
+input[type="state"],
+input[type="text"],
+textarea,
+select
+ {
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  height: auto;
+  margin: 0;
+  outline: 0;
+  padding: 10px;
+  width: 100%;
+  background-color: #e8eeef;
+  color: black; 
+  box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+  margin: 10px 0 20px 0;
+}
+
+input[type="zip"] {
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    height: auto;
+    display: block;
+    margin: 0;
+    outline: 0;
+    padding: 10px;
+    width: 50%;
+    background-color: #e8eeef;
+    color: black; 
+    box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+    margin: 10px 0 20px 0;
+  } 
+
+
+.container input:focus {
+    border: 2px solid blue;
+  }  
+
+fieldset {
+    border: none;
+}
+
+legend {
+    font-weight: bold;
+    font-size: 1.25em;
+    padding: 20px 0 20px 0;  
+}
+
+.container ::placeholder {
+    text-align: right;
+    font-style: italic;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  margin: 10px 5px 10px 0;
+}
+
+button {
+    padding: 15px 35px 15px 35px;
+    color: white;
+    background-color: #0a9396;
+    font-size: 1.25em;
+    text-align: center;
+    font-style: normal;
+    border-radius: 5px;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  button:hover {
+    cursor: pointer;
+    background-color: red;
+  }
+
+  footer {
+      text-align: center;
+      font-style: italic;
+      font-size: .8em;
+      color: gray;
+      padding: 15px 0 15px 0;
+  }
+
+
+
+
+  @media (min-width: 768px) {
+
+
+      
+  }
