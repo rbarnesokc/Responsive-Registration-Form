@@ -97,7 +97,7 @@ select
   } 
 
 
-.contact :focus {
+input:focus, textarea:focus, #zip:focus {
     border: 2px solid blue;
   }  
 
