@@ -97,7 +97,7 @@ select
   } 
 
 
-input:focus, textarea:focus, #zip:focus {
+input:focus, textarea:focus, #zip:focus, select:focus {
     border: 2px solid blue;
   }  
 
