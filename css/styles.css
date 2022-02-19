@@ -97,7 +97,7 @@ select
   } 
 
 
-.contact focus {
+.contact :focus {
     border: 2px solid blue;
   }  
 
